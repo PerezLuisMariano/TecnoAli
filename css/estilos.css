@@ -1,3 +1,5 @@
+*{margin:0; padding:0;}
+
 body
 {
     background-color: #ececec;
@@ -7,7 +9,7 @@ body
 input[type=button]
       {
         background-color: #4323f8;
-        color: #ffffff;
+        color: #161624;
         border: none;
         padding: 12px 12px;
         margin: 0px 0px;
@@ -15,3 +17,38 @@ input[type=button]
         font-family: Bariol;
         font-size: 16px;
         font-weight: bold;
+       }
+
+header{
+  width:100%;
+  height: 80px;
+  background: #ffffff;
+}
+
+header .logo{
+  margin: 10px;
+  line-height: 50px;
+  float: left;
+}
+
+header nav{
+  float: right;
+  line-height: 80px;
+}
+
+header nav a{
+  display: inline-block;
+  color: #161624;
+  text-decoration: none;
+  line-height: normal;
+  padding: 10px 20px;
+  font-family: Bariol;
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+header nav a:hover {
+  background: #4323f8;
+  border-radius: 100px;
+
+}

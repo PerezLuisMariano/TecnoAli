@@ -1,6 +1,4 @@
 # TecnoAli 📱
 
 A project to learn Git and GitHub
->Este es solo un proyecto para practicar en el Curso Profesional de Github.
-
-😃
+>Este es solo un proyecto para practica con el Curso Profesional de Git Hub.
